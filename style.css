@@ -108,3 +108,17 @@ header, section {
 .nutrition {
   padding-bottom: 6rem;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 1px solid var(--stone-150);
+}
+
+td {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
