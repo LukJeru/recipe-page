@@ -70,3 +70,41 @@ ol li::marker, td strong{
 .ingredients, .instructions {
   border-bottom: 1px solid var(--stone-150);
 }
+
+/*Positioning*/
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+main{
+  margin-top: 12rem;
+  margin-bottom: 12rem;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 2rem;
+}
+
+
+img {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 2rem;
+}
+
+
+header, section {
+  position: relative;
+  top: 3rem;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.nutrition {
+  padding-bottom: 6rem;
+}
