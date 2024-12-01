@@ -93,7 +93,10 @@ main{
 
 
 img {
-  width: 100%;
+  width: 80%;
+  position: relative;
+  top: 3rem;
+  margin: 0 auto;
   object-fit: contain;
   border-radius: 2rem;
 }
@@ -167,4 +170,23 @@ ul li::marker {
   position: relative;
   right: 1rem;
   width: 100%;
+}
+
+/*media queries*/
+
+@media only screen and (max-width: 600px) {
+  main {
+    width: 100%;
+    margin-top: -2rem;
+    border-radius: 0;
+    min-height: 100%;
+  }
+
+  img {
+    width: 100%;
+    margin-top: -2rem;
+    object-fit: contain;
+    border-radius: 0;
+  }
+
 }
